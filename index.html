@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        class="logo"
+        src="comapny_logo.png"
+        alt="company_logo"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features"> Features</a></li>
+          <li><a class="nav-link" href="#glimpse"> Horses</a></li>
+          <li><a class="nav-link" href="#pricing"> Pricing </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="heading">welcome to <span>SD</span> academy</h1>
+      <p>Horses lends us the wings we lack.</p>
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <div class="contains">
+          <input
+            autocomplete="off"
+            name="email"
+            class="input"
+            type="email"
+            id="email"
+            placeholder="shrey"
+            required
+          />
+          <label class="label" for="login">
+            <span class="span">Enter E-mail</span>
+          </label>
+        </div>
+        <input id="submit" type="submit">
+      </form>
+
+      <div class="center">
+        <section id="features">
+          <div class="featureContainer">
+            <div class="featureLogo">
+              <img class="logo" src="logo-1.png" alt="" />
+            </div>
+            <div class="left">
+              <h2>Professional Trainers</h2>
+              <p>
+                Trainers have 15 years experience in riding.They have
+                participated and won several medals in National jumping and tent
+                pegging competitions.
+              </p>
+            </div>
+          </div>
+
+          <div class="featureContainer">
+            <div class="featureLogo">
+              <img class="logo" src="logo-2.png" alt="" />
+            </div>
+            <div class="left">
+              <h2>Best horses</h2>
+              <p>
+                Academy has 12 horses & ponies, all trained so children and
+                beginner riders can enjoy riding them.
+              </p>
+            </div>
+          </div>
+
+          <div class="featureContainer">
+            <div class="featureLogo">
+              <img class="logo" src="logo-3.png" alt="" />
+            </div>
+            <div class="left">
+              <h2>Vast Training Areas</h2>
+              <p>
+                The riding is done in 4 acrs open field away from the noise and
+                traffic aof the city in a very natural environment with bird
+                chirping.
+              </p>
+            </div>
+          </div>
+
+          <div class="featureContainer">
+            <div class="featureLogo">
+              <img class="logo" src="logo-4.png" alt="" />
+            </div>
+            <div class="left">
+              <h2>Popular Courses</h2>
+              <p>
+                At warriors horse riding academy we teach basic as well as
+                advance horse riding skills.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="pricing">
+          <div class="card-container">
+            <p>Quaterly</p>
+            <p class="price">₹199.99</p>
+            <p>helmet not provided</p>
+            <p>Trousers are compulsory</p>
+            <p>no access to privelege membership</p>
+            <button>Know More</button>
+          </div>
+
+          <div class="card-container">
+            <p>Half-yearly</p>
+            <p class="price">₹249.99</p>
+            <p>helmet are provided</p>
+            <p>Trousers are provided</p>
+            <p>no access to privelege membership</p>
+            <button>Know More</button>
+          </div>
+
+          <div class="card-container">
+            <p>yearly</p>
+            <p class="price">₹399.99</p>
+            <p>helmet are provided</p>
+            <p>Trousers are provided</p>
+            <p>access to privelege membership included</p>
+            <button>Know More</button>
+          </div>
+      </section>
+
+      <section id="glimpse">
+         <video id="video" width="100%" height="100%" controls>
+           <source src="horses.mp4" type="video/mp4">
+         </video>
+      </section>      
+    </main>
+
+
+<footer>
+  <p>copyright © Shrey dhawan </p>
+</footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
